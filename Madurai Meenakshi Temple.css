@@ -1,0 +1,24 @@
+body{
+    background-color: antiquewhite;
+}
+.custom1{
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  width: 610px;
+  border: 5px solid;
+}
+.custom2{
+  position: absolute;
+  top: 900px;
+  left: 550px;
+  width: 700px;
+  border: 5px solid;
+}
+.custom3{
+  position: absolute;
+  top: 1600px;
+  left: 200px;
+  width: 1500px;
+  border: 5px solid;
+}
