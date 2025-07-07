@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+}
+.custom1{
+  position: absolute;
+  top: 80px;
+  left: 930px;
+  width: 700px;
+  border: 5px solid;
+}
+.custom2{
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  width: 829px;
+  border: 5px solid;
+}

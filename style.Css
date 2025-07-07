@@ -1,0 +1,78 @@
+body{
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200vh;
+    margin: 0;
+}
+.qw{
+   text-align: center;
+   background-color: rgb(8, 242, 43);
+   color: rgb(0, 0, 0);
+   border: 8px solid;
+}
+.nb {
+  display: flex;                   
+  justify-content: space-between;   
+  align-items: center;           
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243, 0, 198);
+  border: 8px solid;
+  border-radius: 20px;
+}
+.nb li{
+    flex: 1; 
+text-align: center;
+}
+.nb li a{
+    padding: 15px 0;       
+width: 100%;              
+display: block;
+margin: 0;
+text-decoration: none;
+font-weight: bold;
+color: black;
+}
+.nb li a:active {
+  background-color: aqua;     
+  color: black;          
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+.states{
+    color: aliceblue;
+}
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.nb li a:focus {
+  background-color: aqua;    
+  color: black;              
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+
+}
+.nb li a:hover {
+  background-color: aqua;    
+  color: black;               
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1; 
+}
